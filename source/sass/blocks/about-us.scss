@@ -1,0 +1,133 @@
+.about-us {
+  color: #fff;
+  background-color: $color-main;
+}
+
+.about-us__wrapper {
+  max-width: 574px;
+  margin: 0 auto;
+  margin-bottom: 91px;
+  padding: 33px 15px 42px;
+}
+
+.about-us__desc {
+  margin: 0;
+  margin-bottom: 15px;
+
+  line-height: 19px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about-us__title {
+  margin: 0;
+  margin-bottom: 21px;
+
+  font-size: $font-size--lg;
+  line-height: 40px;
+  text-align: center;
+}
+
+.about-us__img {
+  display: block;
+  width: 144px;
+  height: 144px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  border-radius: 50%;
+}
+
+.about-us__content {
+  text-align: center;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: $screen-md) {
+  .about-us__wrapper {
+    max-width: 100%;
+    margin-bottom: 82px;
+    padding: 97px 112px 145px;
+  }
+
+  .about-us__desc {
+    margin-bottom: 11px;
+
+    font-size: $font-size--md;
+    line-height: 29px;
+  }
+
+  .about-us__title {
+    margin-bottom: 39px;
+
+    font-size: $font-size--xl;
+    line-height: 48px;
+  }
+
+  .about-us__img {
+    width: 384px;
+    height: 384px;
+    margin-bottom: 75px;
+  }
+
+  .about-us__content {
+    line-height: 28px;
+  }
+}
+
+@media (min-width: $screen-lg) {
+  .about-us__wrapper {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: $screen-lg;
+    min-height: $screen-md;
+    margin: 0 auto;
+    margin-bottom: 106px;
+    padding: 65px 41px 97px 519px;
+  }
+
+  .about-us__desc {
+    text-align: left;
+  }
+
+  .about-us__title {
+    text-align: left;
+  }
+
+  .about-us__img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 424px;
+    height: $screen-md;
+    margin: auto 0;
+
+    border-radius: 0;
+  }
+
+  .about-us__content {
+    text-align: left;
+  }
+}
+
+@media (min-width: $screen-xl) {
+  .about-us__wrapper {
+    max-width: $screen-xl;
+    min-height: 672px;
+    margin-bottom: 106px;
+    padding: 65px 248px 89px 648px;
+  }
+
+  .about-us__img {
+    width: 552px;
+    height: 672px;
+  }
+}
