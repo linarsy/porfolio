@@ -1,32 +1,128 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Главная</title>
-    <link rel="preload" href="fonts/opensans.woff2" as="font">
-    <link rel="preload" href="fonts/opensansbold.woff2" as="font">
-    <link href="css/style.min.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="js/picturefill.min.js"></script>
-  </head>
-  <body>
 
-    <div style="display:none">
-      <include src="build/img/sprite/sprite.svg"></include>
-    </div>
+<head>
+  <meta charset="utf-8">
+  <title>Главная</title>
+  <link rel="preload" href="fonts/opensans.woff2" as="font">
+  <link rel="preload" href="fonts/opensansbold.woff2" as="font">
+  <link href="css/style.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/picturefill.min.js"></script>
+</head>
 
-    <header class="page-header">
+<body>
 
-    </header>
+  <div style="display:none">
+    <include src="build/img/sprite/sprite.svg"></include>
+  </div>
 
-    <main class="page-main">
+  <main class="page-main">
+    <section class="about-us">
+      <div class="about-us__wrapper">
+        <div class="about-us__header">
+          <p class="about-us__desc">Фронтенд разработчик</p>
+          <h1 class="about-us__title">Алла Якушева</h1>
+        </div>
+        <picture>
+          <img class="about-us__photo" src="img/photo.jpg" alt="Фотография Аллы Якушевой">
+        </picture>
+        <div class="about-us__content">
+          <p>Рекламный макет подсознательно экономит JavaScript. Несмотря на сложности, ребрендинг Sass, LESS, PostCSS. Медиавес,
+            конечно, стабилизирует экспериментальный традиционный Gulp, Webpack. Построение бренда специфицирует Python жизненный
+            цикл продукции. К тому же каждая сфера рынка выражена наиболее полно. Медиабизнес искажает комплексный системный
+            анализ.</p>
+        </div>
+      </div>
+    </section>
 
-    </main>
+    <section class="features">
+      <div class="feature wrapper">
+        <h2 class="features__title">Основные навыки</h2>
+        <ul class="features__list">
+          <li class="features__item">
+            <h3 class="features__sub-title">HTML5</h3>
+            <div class="features__content">
+              <p>Рекламный макет подсознательно экономит JavaScript. Несмотря на сложности, ребрендинг Sass, LESS, PostCSS.
+                Медиавес, конечно, стабилизирует экспериментальный традиционный Gulp, Webpack.</p>
+            </div>
+          </li>
+          <li class="features__item">
+            <h3 class="features__sub-title">HTML5</h3>
+            <div class="features__content">
+              <p>Рекламный макет подсознательно экономит JavaScript. Несмотря на сложности, ребрендинг Sass, LESS, PostCSS.
+                Медиавес, конечно, стабилизирует экспериментальный традиционный Gulp, Webpack.</p>
+            </div>
+          </li>
+          <li class="features__item">
+            <h3 class="features__sub-title">HTML5</h3>
+            <div class="features__content">
+              <p>Рекламный макет подсознательно экономит JavaScript. Несмотря на сложности, ребрендинг Sass, LESS, PostCSS.
+                Медиавес, конечно, стабилизирует экспериментальный традиционный Gulp, Webpack.</p>
+            </div>
+          </li>
+          <li class="features__item">
+            <h3 class="features__sub-title">HTML5</h3>
+            <div class="features__content">
+              <p>Рекламный макет подсознательно экономит JavaScript. Несмотря на сложности, ребрендинг Sass, LESS, PostCSS.
+                Медиавес, конечно, стабилизирует экспериментальный традиционный Gulp, Webpack.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-    <footer class="page-footer">
+    <section class="catalog">
+      <div class="catalog__wrapper">
+        <h2 class="catalog__title">Мои работы</h2>
+        <ul class="catalog__list">
+          <li class="catalog__item">
+            <h3 class="catalog__sub-title">Мишка</h3>
+            <a class="catalog__link" href="githab.io/mishka">mishka.ru</a>
+            <div class="catalog__content">
+              <p>Рекламный макет подсознательно экономит JavaScript. Несмотря на      сложности, ребрендинг Sass, LESS, PostCSS.
+                Медиавес, конечно, стабилизирует экспериментальный традиционный Gulp, Webpack.</p>
+            </div>
+            <picture>
+              <img class="catalog__picture" src="" alt="Главная страница интернет магазина Мишка">
+            </picture>
+          </li>
+          <li class="catalog__item">
 
-    </footer>
+          </li>
+          <li class="catalog__item">
 
-    <script src="js/script.min.js"></script>
-  </body>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="contacts__wrapper">
+        <h2 class="contacts__title">Контактная информация</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <a class="contacts__link" href="">GitHub</a>
+          </li>
+          <li class="contacts__item">
+            <a class="contacts__link" href="">Facebook</a>
+          </li>
+          <li class="contacts__item">
+            <a class="contacts__link" href="">Email</a>
+          </li>
+          <li class="contacts__item">
+            <a class="contacts__link" href="">Viber</a>
+          </li>
+        </ul>
+        <div class="contacts__content">
+          <p>Рекламный макет подсознательно экономит JavaScript. Несмотря на          сложности, ребрендинг Sass, LESS, PostCSS.
+            Медиавес, конечно, стабилизирует экспериментальный традиционный Gulp, Webpack.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/script.min.js"></script>
+</body>
+
 </html>
