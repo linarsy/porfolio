@@ -25,6 +25,8 @@
     padding: 25px 24px;
 
     background: linear-gradient(#E6F0F0, #E9F0E6);
+
+    @include last-item-reset;
   }
 
   .features__sub-title {
@@ -84,6 +86,7 @@
 
     &:nth-child(4n-1) {
       max-width: 312px;
+      margin: 0;
       margin-right: 13px;
 
       p {
@@ -103,6 +106,6 @@
 
 @media (min-width: $screen-lg) {
   .features__wrapper {
-    margin-bottom: 116px;
+    margin-bottom: 129px;
   }
 }

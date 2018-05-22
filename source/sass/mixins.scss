@@ -4,3 +4,9 @@
 
   list-style: none;
 }
+
+@mixin last-item-reset {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
