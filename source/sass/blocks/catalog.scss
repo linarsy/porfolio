@@ -60,7 +60,7 @@
 
 @media (min-width: $screen-md) {
   .catalog__wrapper {
-    width: 768px;
+    width: $screen-md;
     margin-bottom: 88px;
     padding: 0 32px;
   }
