@@ -70,9 +70,3 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-@media (min-width: $screen-md) {
-  body {
-    font-size: $font-size--sm;
-  }
-}
