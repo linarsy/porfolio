@@ -24,8 +24,15 @@
           <p class="about-us__desc">Фронтенд разработчик</p>
           <h1 class="about-us__title">Алла Якушева</h1>
         </div>
-        <picture>
-          <img class="about-us__img" src="img/photo.jpg" alt="Фотография Аллы Якушевой">
+        <picture  class="about-us__picture">
+          <source type="image/webp" media="(min-width: 1440px)" srcset="img/webp/linarsy-desktop@1x.webp 1x, img/webp/linarsy-desktop@2x.webp 2x">
+          <source type="image/webp" media="(min-width: 1024px)" srcset="img/webp/linarsy-laptop@1x.webp 1x, img/webp/linarsy-laptop@2x.webp 2x">
+          <source type="image/webp" media="(min-width: 768px)" srcset="img/webp/linarsy-tablet@1x.webp 1x, img/webp/linarsy-tablet@2x.webp 2x">
+          <source type="image/webp" srcset="img/webp/linarsy-mobile@1x.webp, img/webp/linarsy-mobile@2x.webp 2x">
+          <source media="(min-width: 1440px)" srcset="img/linarsy-desktop@1x.jpg 1x, img/linarsy-desktop@2x.jpg 2x">
+          <source media="(min-width: 1024px)" srcset="img/linarsy-laptop@1x.jpg 1x, img/linarsy-laptop@2x.jpg 2x">
+          <source media="(min-width: 768px)" srcset="img/linarsy-tablet@1x.jpg 1x, img/linarsy-tablet@2x.jpg 2x">
+          <img class="about-us__img" src="img/linarsy-mobile@1x.jpg" srcset="img/linarsy-mobile@2x.jpg 2x" alt="Фотография Аллы Якушевой">
         </picture>
         <div class="about-us__content">
           <p>Рекламный макет подсознательно экономит JavaScript. Несмотря на сложности, ребрендинг Sass, LESS, PostCSS. Медиавес,
@@ -80,7 +87,11 @@
             <div class="catalog__inner">
               <div class="catalog__header">
                 <h3 class="catalog__sub-title">Мишка</h3>
-                <a class="catalog__link" href="githab.io/mishka">mishka.ru</a>
+                <a class="catalog__link" href="https://linarsy.github.io/419137-mishka/">Главная</a>
+                <span> / </span>
+                <a class="catalog__link" href="https://linarsy.github.io/419137-mishka/catalog.html">Каталог</a>
+                <span> / </span>
+                <a class="catalog__link" href="https://linarsy.github.io/419137-mishka/form.html">Форма заказа</a>
               </div>
               <div class="catalog__content">
                 <p>Рекламный макет подсознательно экономит JavaScript. Несмотря на      сложности, ребрендинг Sass, LESS, PostCSS.
@@ -88,14 +99,17 @@
               </div>
             </div>
             <picture>
-              <img class="catalog__picture" src="" alt="Главная страница интернет магазина Мишка">
+              <source type="image/webp" media="(min-width: 1024px)" srcset="img/webp/mishka-index-desktop@1x.webp 1x, img/webp/mishka-index-desktop@2x.webp 2x">
+              <source type="image/webp" srcset="img/webp/mishka-index-tablet@1x.webp, img/webp/mishka-index-tablet@2x.webp 2x">
+              <source media="(min-width: 1024px)" srcset="img/mishka-index-desktop@1x.jpg 1x, img/mishka-index-desktop@2x.jpg 2x">
+              <img class="catalog__picture" src="img/mishka-index-tablet@1x.jpg" srcset="img/mishka-index-tablet@2x.jpg 2x" alt="Главная страница интернет-магазина Мишка">
             </picture>
           </li>
           <li class="catalog__item">
             <div class="catalog__inner">
               <div class="catalog__header">
-                <h3 class="catalog__sub-title">Мишка</h3>
-                <a class="catalog__link" href="githab.io/mishka">mishka.ru</a>
+                <h3 class="catalog__sub-title">Кекстаграм</h3>
+                <a class="catalog__link" href="https://linarsy.github.io/419137-kekstagram/">kekstagram.ru</a>
               </div>
               <div class="catalog__content">
                 <p>Рекламный макет подсознательно экономит JavaScript. Несмотря на      сложности, ребрендинг Sass, LESS, PostCSS.
@@ -103,14 +117,19 @@
               </div>
             </div>
             <picture>
-              <img class="catalog__picture" src="" alt="Главная страница интернет магазина Мишка">
+              <source type="image/webp" media="(min-width: 1024px)" srcset="img/webp/keksogram-index-desktop@1x.webp 1x, img/webp/keksogram-index-desktop@2x.webp 2x">
+              <source type="image/webp" srcset="img/webp/keksogram-index-tablet@1x.webp, img/webp/keksogram-index-tablet@2x.webp 2x">
+              <source media="(min-width: 1024px)" srcset="img/keksogram-index-desktop@1x.jpg 1x, img/keksogram-index-desktop@2x.jpg 2x">
+              <img class="catalog__picture" src="img/keksogram-index-tablet@1x.jpg" srcset="img/keksogram-index-tablet@2x.jpg 2x" alt="Кекстаграм — сервис просмотра изображений">
             </picture>
           </li>
           <li class="catalog__item">
             <div class="catalog__inner">
               <div class="catalog__header">
-                <h3 class="catalog__sub-title">Мишка</h3>
-                <a class="catalog__link" href="githab.io/mishka">mishka.ru</a>
+                <h3 class="catalog__sub-title">Девайс</h3>
+                <a class="catalog__link" href="https://linarsy.github.io/419137-device/">Главная</a>
+                <span> / </span>
+                <a class="catalog__link" href="https://linarsy.github.io/419137-device/catalog.html">Каталог</a>
               </div>
               <div class="catalog__content">
                 <p>Рекламный макет подсознательно экономит JavaScript. Несмотря на      сложности, ребрендинг Sass, LESS, PostCSS.
@@ -118,7 +137,10 @@
               </div>
             </div>
             <picture>
-              <img class="catalog__picture" src="" alt="Главная страница интернет магазина Мишка">
+              <source type="image/webp" media="(min-width: 1024px)" srcset="img/webp/device-index-desktop@1x.webp 1x, img/webp/device-index-desktop@2x.webp 2x">
+              <source type="image/webp" srcset="img/webp/device-index-tablet@1x.webp, img/webp/device-index-tablet@2x.webp 2x">
+              <source media="(min-width: 1024px)" srcset="img/device-index-desktop@1x.jpg 1x, img/device-index-desktop@2x.jpg 2x">
+              <img class="catalog__picture" src="img/device-index-tablet@1x.jpg" srcset="img/device-index-tablet@2x.jpg 2x" alt="Главная страница интернет-магазина Девайс">
             </picture>
           </li>
         </ul>

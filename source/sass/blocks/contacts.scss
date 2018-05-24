@@ -3,6 +3,7 @@
 }
 
 .contacts__wrapper {
+  max-width: 574px;
   margin: auto auto 0;
   padding: 43px 16px 72px;
 }
@@ -35,16 +36,13 @@
   }
 }
 
-.contacts__content {
-  max-width: 384px;
-}
-
 @media (min-width: $screen-md) {
   .contacts__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: $screen-md;
+    max-width: 100%;
     padding: 33px 32px 98px;
   }
 
@@ -62,6 +60,7 @@
   }
 
   .contacts__content {
+    width: 384px;
     p {
       margin-top: 0;
     }

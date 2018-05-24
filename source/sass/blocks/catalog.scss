@@ -44,15 +44,15 @@
 }
 
 .catalog__content {
+  max-width: 704px;
   margin: 16px 0 15px;
 }
 
 .catalog__picture {
   display: block;
-  width: 304px;
-  height: 216px;
-  margin: 0 auto;
-
+  width: 100%;
+  max-width: 704px;
+  height: auto;
 
   background-color: $color-secondary--light;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
