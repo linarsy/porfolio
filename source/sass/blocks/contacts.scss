@@ -21,10 +21,26 @@
 }
 
 .contacts__link {
-  padding-left: 32px;
+  position: relative;
+  display: flex;
+  padding-left: 20px;
 
   line-height: 2;
   color: $color-link;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    width: 8px;
+    height: 8px;
+
+    border: 1px solid $color-link;
+    border-radius: 50%;
+    transform: translateY(-50%);
+  }
 
   &:hover,
   &:focus {
@@ -76,4 +92,9 @@
   .contacts__title {
     margin-bottom: 61px;
   }
+
+  .contacts__content {
+    width: 504px;
+  }
+
 }
