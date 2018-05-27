@@ -47,6 +47,21 @@
   }
 }
 
+.about-us__link {
+  font-weight: 300;
+  font-style: italic;
+  color: $color-secondary;
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
 @media (min-width: $screen-md) {
   .about-us__wrapper {
     max-width: 100%;
