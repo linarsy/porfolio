@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Главная</title>
+  <title>Веб-портфолио Аллы Якушевой</title>
   <link rel="preload" href="fonts/opensans.woff2" as="font">
+  <link rel="preload" href="fonts/opensanslight.woff2" as="font">
   <link rel="preload" href="fonts/opensansbold.woff2" as="font">
   <link href="css/style.min.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,11 +13,6 @@
 </head>
 
 <body>
-
-  <div style="display:none">
-    <include src="build/img/sprite/sprite.svg"></include>
-  </div>
-
   <main class="page-main">
     <section class="about-us">
       <div class="about-us__wrapper">
@@ -35,7 +31,7 @@
           <img class="about-us__img" src="img/linarsy-mobile@1x.jpg" srcset="img/linarsy-mobile@2x.jpg 2x" alt="Фотография Аллы Якушевой">
         </picture>
         <div class="about-us__content">
-          <p>Летом 2017 г. я решила сменить специализацию и развиваться в области фронтенда. Для обучения я <a class="about-us__link" href="https://htmlacademy.ru/profile/linarsy">выбрала HTML Academy</a> и успешно закончила 3 интенсива профессии «Фронтенд-разработчик». На данный момент прохожу стажировку <a class="about-us__link" href="https://htmlacademy.ru/production">в Лиге А</a> (аутсорс по вёрстке сайтов от Academy). В моих планах на 2018 год много верстать, изучить React.js (или Vue.js) и пройти курс по <a class="about-us__link" href="https://ru.hexlet.io/professions/frontend">JavaScript на Hexlet</a>.</p>
+          <p>Летом 2017 г. я решила сменить специализацию и развиваться в области фронтенда. Для обучения я выбрала <a class="about-us__link" href="https://htmlacademy.ru/profile/linarsy">HTML Academy</a> и успешно закончила 3 интенсива профессии «Фронтенд-разработчик». На данный момент прохожу стажировку в <a class="about-us__link" href="https://htmlacademy.ru/production">Лиге А</a> (аутсорс по вёрстке сайтов от Academy). В моих планах на 2018 год много верстать, изучить React.js (или Vue.js) и пройти курс по JavaScript на <a class="about-us__link" href="https://ru.hexlet.io/professions/frontend">Hexlet</a>.</p>
         </div>
       </div>
     </section>
@@ -90,14 +86,14 @@
                 <p>Проект выполнен в рамках интенсива <a class="catalog__link" href="https://assets.htmlacademy.ru/certificates/intensive/71/419137.pdf">«HTML и CSS, уровень 2»</a> в HTML Academy. «Мишка» прошел проверку по 53 критериям  и получил высшую оценку у случайного наставника. В «Мишке» сложная адаптивная сетка (мобильная, планшетная и десктопная версии)  и  множество декоративных элементов.  В работе над проектом я использовала БЕМ, Gulp, синтаксис SCSS, SVG-спрайты и ретинизацию изображений.</p>
               </div>
             </div>
-            <picture>
-              <source type="image/webp" media="(min-width: 1024px)" srcset="img/webp/mishka-index-desktop@1x.webp 1x, img/webp/mishka-index-desktop@2x.webp 2x">
-              <source type="image/webp" srcset="img/webp/mishka-index-tablet@1x.webp, img/webp/mishka-index-tablet@2x.webp 2x">
-              <source media="(min-width: 1024px)" srcset="img/mishka-index-desktop@1x.jpg 1x, img/mishka-index-desktop@2x.jpg 2x">
-              <a href="https://linarsy.github.io/419137-mishka/">
+            <a href="https://linarsy.github.io/419137-mishka/">
+              <picture>
+                <source type="image/webp" media="(min-width: 1024px)" srcset="img/webp/mishka-index-desktop@1x.webp 1x, img/webp/mishka-index-desktop@2x.webp 2x">
+                <source type="image/webp" srcset="img/webp/mishka-index-tablet@1x.webp, img/webp/mishka-index-tablet@2x.webp 2x">
+                <source media="(min-width: 1024px)" srcset="img/mishka-index-desktop@1x.jpg 1x, img/mishka-index-desktop@2x.jpg 2x">
                 <img class="catalog__picture" src="img/mishka-index-tablet@1x.jpg" srcset="img/mishka-index-tablet@2x.jpg 2x" alt="Главная страница интернет-магазина Мишка">
-              </a>
-            </picture>
+              </picture>
+            </a>
           </li>
           <li class="catalog__item">
             <div class="catalog__inner">
@@ -109,14 +105,14 @@
                 <p>«Кекстаграм» — сервис просмотра изображений, написан в рамках интенсива <a class="catalog__link" href="https://assets.htmlacademy.ru/certificates/intensive/65/419137.pdf">JavaScript</a> в HTML Academy. Реализован следующий функционал: загрузка данных с удаленного сервера, фильтрация фотографий, загрузка нового изображения на сайт, изменение маштаба, применение эффектов и выбор глубины эффекта, валидация формы и отправка данных на сервер. Все критерии проверки выполнены мной на 100%.</p>
               </div>
             </div>
-            <picture>
-              <source type="image/webp" media="(min-width: 1024px)" srcset="img/webp/keksogram-index-desktop@1x.webp 1x, img/webp/keksogram-index-desktop@2x.webp 2x">
-              <source type="image/webp" srcset="img/webp/keksogram-index-tablet@1x.webp, img/webp/keksogram-index-tablet@2x.webp 2x">
-              <source media="(min-width: 1024px)" srcset="img/keksogram-index-desktop@1x.jpg 1x, img/keksogram-index-desktop@2x.jpg 2x">
-              <a href="https://linarsy.github.io/419137-kekstagram/">
+           <a href="https://linarsy.github.io/419137-kekstagram/">
+              <picture>
+                <source type="image/webp" media="(min-width: 1024px)" srcset="img/webp/keksogram-index-desktop@1x.webp 1x, img/webp/keksogram-index-desktop@2x.webp 2x">
+                <source type="image/webp" srcset="img/webp/keksogram-index-tablet@1x.webp, img/webp/keksogram-index-tablet@2x.webp 2x">
+                <source media="(min-width: 1024px)" srcset="img/keksogram-index-desktop@1x.jpg 1x, img/keksogram-index-desktop@2x.jpg 2x">
                 <img class="catalog__picture" src="img/keksogram-index-tablet@1x.jpg" srcset="img/keksogram-index-tablet@2x.jpg 2x" alt="Кекстаграм — сервис просмотра изображений">
-              </a>
-            </picture>
+              </picture>
+            </a>
           </li>
           <li class="catalog__item">
             <div class="catalog__inner">
@@ -130,14 +126,14 @@
                 <p>Проект выполнен на интенсиве <a class="catalog__link" href="https://assets.htmlacademy.ru/certificates/intensive/45/419137.pdf">«HTML и CSS, уровень 1»</a>. По итогам проверки я набрала 100 баллов из 100. Вот некоторые из критериев Академии: сайт идентично отображается в последних версиях браузеров Chrome, Firefox, Safari, Edge и IE 11, все интерактивные элементы имеют текстовое описание и доступны с клавиатуры, выполнена стилизация нестандартных элементов форм, вёрстка проходит тест на переполнение контентом.</p>
               </div>
             </div>
-            <picture>
-              <source type="image/webp" media="(min-width: 1024px)" srcset="img/webp/device-index-desktop@1x.webp 1x, img/webp/device-index-desktop@2x.webp 2x">
-              <source type="image/webp" srcset="img/webp/device-index-tablet@1x.webp, img/webp/device-index-tablet@2x.webp 2x">
-              <source media="(min-width: 1024px)" srcset="img/device-index-desktop@1x.jpg 1x, img/device-index-desktop@2x.jpg 2x">
-              <a href="https://linarsy.github.io/419137-device/">
+            <a href="https://linarsy.github.io/419137-device/">
+              <picture>
+                <source type="image/webp" media="(min-width: 1024px)" srcset="img/webp/device-index-desktop@1x.webp 1x, img/webp/device-index-desktop@2x.webp 2x">
+                <source type="image/webp" srcset="img/webp/device-index-tablet@1x.webp, img/webp/device-index-tablet@2x.webp 2x">
+                <source media="(min-width: 1024px)" srcset="img/device-index-desktop@1x.jpg 1x, img/device-index-desktop@2x.jpg 2x">
                 <img class="catalog__picture" src="img/device-index-tablet@1x.jpg" srcset="img/device-index-tablet@2x.jpg 2x" alt="Главная страница интернет-магазина Девайс">
-              </a>
-            </picture>
+              </picture>
+            </a>
           </li>
         </ul>
       </div>
@@ -147,17 +143,17 @@
       <div class="contacts__wrapper">
         <h2 class="contacts__title">Контактная информация</h2>
         <ul class="contacts__list">
-          <li class="contacts__item contacts__item--user">
+          <li class="contacts__item">
             <a class="contacts__link" href="https://github.com/linarsy">GitHub</a>
           </li>
-          <li class="contacts__item contacts__item--user">
+          <li class="contacts__item">
             <a class="contacts__link" href="https://htmlacademy.ru/profile/linarsy">HTML Academy</a>
           </li>
-          <li class="contacts__item contacts__item--email">
-            <a class="contacts__link" href="mailto:lina.stihi@gmail.com">lina.stihi@gmail.com</a>
-          </li>
-          <li class="contacts__item contacts__item--phone">
+          <li class="contacts__item">
             <a class="contacts__link" href="tel:+375256326870">+375 (25) 632-68-70</a>
+          </li>
+          <li class="contacts__item">
+            <a class="contacts__link" href="mailto:lina.stihi@gmail.com">lina.stihi@gmail.com</a>
           </li>
         </ul>
         <div class="contacts__content">
@@ -166,8 +162,6 @@
       </div>
     </section>
   </main>
-
-  <script src="js/script.min.js"></script>
 </body>
 
 </html>
