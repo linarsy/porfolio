@@ -1,5 +1,5 @@
 .contacts {
-  background: linear-gradient(#E6F0F0, #E9F0E6);
+  background: linear-gradient($color-secondary, $color-secondary--light);
 }
 
 .contacts__wrapper {
@@ -78,6 +78,7 @@
 
   .contacts__content {
     width: 384px;
+
     p {
       margin-top: 0;
     }
@@ -88,7 +89,7 @@
   .contacts__wrapper {
     width: 1024px;
     padding: 81px 40px 146px;
-}
+  }
 
   .contacts__title {
     margin-bottom: 61px;
@@ -97,5 +98,4 @@
   .contacts__content {
     width: 504px;
   }
-
 }
